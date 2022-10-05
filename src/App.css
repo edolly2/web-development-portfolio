@@ -1,0 +1,34 @@
+/* ----COLORS---- */
+/* color: #027373 */
+/* color: #038C7F */
+/* color: #ACD8D0 */
+/* color: #D95252 */
+/* color: #777777 */
+/* color: #0D0D0D */
+/* -------------- */
+
+
+
+.App,
+.page {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  position: relative;
+  font-family: 'Lora', serif;
+}
+
+.page {
+  background-image: url("./assets/abstract-bg.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+.social-icon:hover {
+  cursor: pointer;
+  color: blue;
+  transform: scale(1.2);
+}
